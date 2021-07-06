@@ -1,0 +1,15 @@
+.video {
+  display: flex;
+  width: 50%;
+  padding: 0.2em;
+  transition: transform 250ms ease-in;
+}
+.video:hover {
+  transform: scale(1.2);
+}
+.txtbox {
+  padding-left: 0.2em;
+}
+.txtbox .title {
+  font-size: 0.9rem;
+}

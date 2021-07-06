@@ -1,0 +1,31 @@
+* {
+  outline: 0;
+}
+
+.header {
+  display: flex;
+  height: 4rem;
+  padding: 0.8em;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.4em;
+}
+.header_title {
+  margin-left: 0.2em;
+}
+
+.search {
+  flex-basis: 100%;
+  font-size: 1.4rem;
+}
+
+.searchBtn {
+  cursor: pointer;
+  background-color: #555;
+}
+.btnImg {
+  height: 100%;
+  padding: 0.4em;
+}

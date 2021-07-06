@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  height: 4rem;
+  padding: 0.8em;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  flex-basis: 100%;
+  font-size: 1.2rem;
+}

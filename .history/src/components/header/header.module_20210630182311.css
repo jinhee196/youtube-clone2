@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+
+.search {
+  flex-basis: 100%;
+}

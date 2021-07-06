@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  margin-top: 0.2em;
+}
+
+.nav button {
+  width: 80%;
+  height: 80px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #282828;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+}
+.nav button:hover {
+  color: #ff0000;
+  border: 1px solid #666;
+}
+.nav span {
+  font-size: 12px;
+  margin-top: 0.5em;
+  color: #282828;
+}

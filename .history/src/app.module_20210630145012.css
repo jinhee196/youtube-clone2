@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+.app {
+  width: 80rem;
+  margin: auto;
+}

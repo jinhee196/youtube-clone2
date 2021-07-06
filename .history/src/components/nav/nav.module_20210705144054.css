@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+}
+
+.nav i {
+  width: 80%;
+  height: 4%;
+  border: 0;
+  outline: 0;
+}

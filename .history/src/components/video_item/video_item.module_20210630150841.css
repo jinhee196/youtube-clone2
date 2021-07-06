@@ -1,0 +1,17 @@
+.video {
+  padding: 0.2em;
+}
+.video .content {
+  display: flex;
+  transition: transform 250ms ease-in;
+  cursor: pointer;
+}
+.content:hover {
+  transform: scale(1.1);
+}
+.txtbox {
+  padding-left: 0.2em;
+}
+.txtbox .title {
+  font-size: 0.9rem;
+}

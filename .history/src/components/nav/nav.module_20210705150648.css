@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+}
+
+.nav button {
+  width: 80%;
+  height: 100px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.nav i {
+  width: 100px;
+}

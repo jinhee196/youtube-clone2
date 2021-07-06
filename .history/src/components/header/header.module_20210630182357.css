@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  height: 4rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  flex-basis: 100%;
+}

@@ -1,0 +1,12 @@
+.video {
+  display: flex;
+  width: 50%;
+  padding: 0.2em;
+  border: 1px solid #ddd;
+}
+.txtbox {
+  padding-left: 0.2em;
+}
+.txtbox .title {
+  font-size: 0.9rem;
+}

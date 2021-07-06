@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  padding: 0.8em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 0.4em;
+}
+.bars {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 1.4rem;
+  color: #282828;
+  margin: 17px;
+  cursor: pointer;
+}
+.header_title {
+  margin-left: 0.2em;
+}
+.searchBox {
+  display: flex;
+  width: 40%;
+}
+.search {
+  /* flex-basis: 100%; 아이템의 초기 크기를 지정*/
+  font-size: 1.4rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  outline-color: #ccc;
+}
+
+.searchBtn {
+  cursor: pointer;
+  background-color: #ccc;
+  border: 0;
+}
+.btnImg {
+  height: 100%;
+  padding: 0.4em;
+  transition: transform 250ms ease;
+}
+.searchBtn:hover .btnImg {
+  transform: scale(1.1);
+}
+
+.link {
+}
+.github {
+  font-size: 1.5rem;
+}
+.notion {
+  width: 50px;
+}
+.notion img {
+  width: 15%;
+}
+
+@media screen and (max-width: 48rem) {
+  .bars {
+    margin: 0;
+    margin-right: 15px;
+  }
+}
