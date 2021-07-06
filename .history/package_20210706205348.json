@@ -2,7 +2,7 @@
   "name": "temlpate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jinhee196.github.io/youtube-clone2/",
+  "homepage": "git@github.com:jinhee196/youtube-clone2.git",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^5.11.4",
