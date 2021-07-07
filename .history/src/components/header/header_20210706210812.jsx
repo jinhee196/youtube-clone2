@@ -25,7 +25,7 @@ const Header = memo((props) => {
         <button className={styles.bars}>
           <i className="fas fa-bars"></i>
         </button>
-        <img src="images/logo.png" alt="logo" />
+        <img src="/images/logo.png" alt="logo" />
         <h1 className={styles.header_title}>Youtube</h1>
       </div>
       <div className={styles.searchBox}>
@@ -37,7 +37,11 @@ const Header = memo((props) => {
           className={styles.search}
         />
         <button className={styles.searchBtn} onClick={onClick}>
-          <img src="images/search.png" alt="search" className={styles.btnImg} />
+          <img
+            src="/images/search.png"
+            alt="search"
+            className={styles.btnImg}
+          />
         </button>
       </div>
       <div className={styles.link}>
@@ -55,7 +59,7 @@ const Header = memo((props) => {
           rel="noopener noreferrer"
           className={styles.notion}
         >
-          <img src="images/notion.png" alt="notion" />
+          <img src="/images/notion.png" alt="notion" />
         </a>
       </div>
     </header>

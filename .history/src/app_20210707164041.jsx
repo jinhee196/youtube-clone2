@@ -9,9 +9,6 @@ function App({ youtube }) {
   const [videos, setVideos] = useState([]);
   const [selected, setSelected] = useState(null);
 
-  const onVideoClick = useCallback((video) => {
-    setSelected(video);
-  });
   const search = useCallback(
     (query) => {
       youtube
@@ -27,6 +24,10 @@ function App({ youtube }) {
       .mostPopular() //
       .then((videos) => setVideos(videos));
   }, [youtube]);
+
+  const onVideoClick = useCallback((video) => {
+    setSelected(video);
+  });
 
   return (
     <div className={styles.app}>

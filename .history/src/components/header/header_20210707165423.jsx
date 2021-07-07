@@ -55,7 +55,7 @@ const Header = memo((props) => {
           rel="noopener noreferrer"
           className={styles.notion}
         >
-          <img src="images/notion.png" alt="notion" />
+          <img src="./images/notion.png" alt="notion" />
         </a>
       </div>
     </header>
