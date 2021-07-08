@@ -1,4 +1,5 @@
 # YOUTUBE CLONE
+---
 
 ### 1. 프로젝트의 목적 및 용도
 
@@ -13,7 +14,7 @@ HTML5, POSTCSS, REACT, JAVASCRIPT
 
 ![youtube](https://user-images.githubusercontent.com/84313420/124901559-153e2600-e01d-11eb-8f18-f83dca716627.png)
 
----
+
 
 ### 3. 프로젝트시 어려웠던 부분
 
